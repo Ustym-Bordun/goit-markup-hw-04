@@ -306,7 +306,8 @@ body {
 }
 
 .team-card-info {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-card-title {
@@ -330,7 +331,8 @@ body {
 
 .team-card-list {
   display: flex;
-  column-gap: 24px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-card-link {
@@ -426,7 +428,11 @@ body {
 
 .footer-container {
   display: flex;
-  column-gap: 120px;
+  align-items: baseline;
+}
+
+.footer-info-block {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -457,7 +463,7 @@ body {
 
 .footer-socials-list {
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 .footer-socials-link {
